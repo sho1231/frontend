@@ -6,6 +6,7 @@ import Reset from './Components/Reset';
 function App() {
   return (
     <>
+      <div>For registering and login..please do it with the help of postman or insomnia by the reading the readme.txt file</div>
       <Routes>
         <Route exact path="/" element={<Navigate end to="/resetPage" />} />
         <Route exact path="/resetPage" element={<SendEmail />} />
